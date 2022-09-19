@@ -3835,6 +3835,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"Hoàng Nam Portfolio@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "Hoàng Nam Portfolio@workspace:."
+  dependencies:
+    "@emotion/react": ^11.4.1
+    "@emotion/styled": ^11.3.0
+    "@mui/icons-material": ^5.0.1
+    "@mui/lab": ^5.0.0-alpha.49
+    "@mui/material": ^5.0.2
+    "@mui/styled-engine-sc": ^5.0.0
+    "@testing-library/jest-dom": ^5.11.4
+    "@testing-library/react": ^11.1.0
+    "@testing-library/user-event": ^12.1.10
+    "@types/jest": ^26.0.15
+    "@types/node": ^12.0.0
+    "@types/react": ^17.0.0
+    "@types/react-dom": ^17.0.0
+    "@types/react-router-dom": ^5.3.0
+    gh-pages: ^3.2.3
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-router-dom: ^5.3.0
+    react-scripts: 4.0.3
+    styled-components: ^5.3.1
+    typescript: ^4.1.2
+    web-vitals: ^1.0.1
+    yarn: ^1.22.15
+  languageName: unknown
+  linkType: soft
+
 "abab@npm:^2.0.3":
   version: 2.0.5
   resolution: "abab@npm:2.0.5"
@@ -7619,36 +7649,6 @@ __metadata:
   checksum: 184dc8a413eb4b1ff16bdce797340e7ded4d28511d56a1c9afa5a95bcff6ace154063823eaf0206dbbb0d14059d74f382a15c34b7c0636fa74a7e681295eb67e
   languageName: node
   linkType: hard
-
-"f-portfolio@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "f-portfolio@workspace:."
-  dependencies:
-    "@emotion/react": ^11.4.1
-    "@emotion/styled": ^11.3.0
-    "@mui/icons-material": ^5.0.1
-    "@mui/lab": ^5.0.0-alpha.49
-    "@mui/material": ^5.0.2
-    "@mui/styled-engine-sc": ^5.0.0
-    "@testing-library/jest-dom": ^5.11.4
-    "@testing-library/react": ^11.1.0
-    "@testing-library/user-event": ^12.1.10
-    "@types/jest": ^26.0.15
-    "@types/node": ^12.0.0
-    "@types/react": ^17.0.0
-    "@types/react-dom": ^17.0.0
-    "@types/react-router-dom": ^5.3.0
-    gh-pages: ^3.2.3
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-router-dom: ^5.3.0
-    react-scripts: 4.0.3
-    styled-components: ^5.3.1
-    typescript: ^4.1.2
-    web-vitals: ^1.0.1
-    yarn: ^1.22.15
-  languageName: unknown
-  linkType: soft
 
 "fast-deep-equal@npm:^3.1.1":
   version: 3.1.3
