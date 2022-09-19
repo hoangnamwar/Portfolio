@@ -1,7 +1,7 @@
 {
   "homepage": "http://hoangnamwar.github.io/Portfolio/",
-  "name": "f-portfolio",
-  "version": "0.1.0",
+  "name": "Hoàng Nam Portfolio",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",
@@ -29,11 +29,11 @@
     "yarn": "^1.22.15"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "start": "yarn start",
+    "build": "yarn build",
+    "test": "yarn test",
+    "eject": "yarn eject",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
