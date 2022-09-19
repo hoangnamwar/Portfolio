@@ -1,35 +1,28 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { Button, CardActionArea, CardActions } from "@mui/material";
 import pic1 from "../assets/TodoList.png";
 import pic2 from "../assets/wallet.png";
 
-
-interface props
-{
-  title: string,
-  des: string,
-  img: string,
-  link: string
+interface props {
+  title: string;
+  des: string;
+  img: string;
+  link: string;
+  date: string;
 }
 
-
 export default function CardProject(props: props) {
-
-  
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
-          // image= {require(props.img)}
-          // src= {require(props.img)}
-          // image= {require("../assets/exa.jpg")}
-          image= { (props.img === "pic1") ? pic1 : pic2 }
+          image={props.img === "pic1" ? pic1 : pic2}
           alt={props.title}
         />
         <CardContent>
@@ -41,14 +34,13 @@ export default function CardProject(props: props) {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button 
-          size="small" 
-          color="primary" 
-          href={props.link}
-        >
+      <CardActions sx={{ justifyContent: "space-between" }}>
+        <Button size="small" color="primary" href={props.link}>
           Go
         </Button>
+        <Typography gutterBottom variant="body1" component="div">
+          {props.date}
+        </Typography>
       </CardActions>
     </Card>
   );

@@ -1,156 +1,104 @@
 /* --------- preloader ---------- */
-  #preloader
-  {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999999;
-    background-color: #0c0513;
-    background-image: url(./assets/pre.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  /* background-color: #0c0513; */
+  background-image: url(./assets/pre.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* ------------------------------ */
 
-
 /* ------- navbar -------- */
-  .navbar
-  {
-    position: fixed;
-    padding: 20px;
-    width: 100%;
-    transition: all 0.3s ease-out 0s !important;
-    /* background-color: rgba(33,32,56,.8470588235294118)!important;  */
-    box-shadow: 0 10px 10px 0 rgba(9,5,29,.171)!important;
-    -webkit-backdrop-filter: blur(15px)!important;
-    backdrop-filter: blur(15px)!important;
-  }
-  .navbar-left
-  {
-    float: left;
-    font-size: 20px;
-    font-weight: 600;
-    /* color: var(--imp-text-color); */
-  }
-  .navbar-right
-  {
-    float: right;
-    display: flex;
-  }
-  .navbar-element
-  {
-    padding: 0 20px 0 20px ;
-    font-weight: 600;
-    font-size: 20px;
-    /* color: var(--imp-text-color); */
-    text-decoration: none !important;
-  }
-  /* .navbar-element :last-child
-  {
-    margin-right: 20px;
-  } */
-
- /* -------------------------- */
-
-
+.navbar {
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.3s ease-out 0s !important;
+  box-shadow: 0 10px 10px 0 rgba(9, 5, 29, 0.171) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
+  backdrop-filter: blur(15px) !important;
+}
+.navbar-left {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+.navbar-right {
+  float: right;
+  display: flex;
+}
+.navbar-element {
+  padding: 0 20px 0 20px;
+  font-weight: 600;
+  font-size: 20px;
+  /* color: var(--imp-text-color); */
+  text-decoration: none !important;
+}
+/* -------------------------- */
 
 /* --------------- App ---------------- */
-.empty
-{
+.empty {
   height: 120px;
 }
-.app
-{
+.app {
   background-image: linear-gradient(
-    270deg
-    ,rgb(27 20 41),rgb(20 15 35)) !important;
-  
+    270deg,
+    rgb(27 20 41),
+    rgb(20 15 35)
+  ) !important;
 }
-
-
-
 /* ------------------------------------ */
-
 
 /* ----------- Home ------------ */
-  .home-img
-  {
-    width: 100%;
-  }
+.home-img {
+  width: 100%;
+}
 /* -------------------------------- */
 
-
 /* ------------- About -------------- */
-  .about-center
-  {
-    text-align: center;
-  }
-  .about-top
-  {
-    margin-top: 100px;
-    
-  }
-  .about-icon
-  {
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 50%;
-    
-  }
-  /* Grid  */
-  .css-8wqzlf-MuiGrid-root 
-  {
-    margin-top: 50px !important;
-  }
-/* ---------------------------------- */
+.about {
+  min-height: 100vh;
+}
+.about-center {
+  text-align: center;
+}
+.about-top {
+  margin-top: 100px;
+}
+.about-icon {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 50%;
+}
+/* -------------------------------- */
 
 /* ------------ Project ------------- */
-  .project
-  {
-    text-align: center;
-  }
-  .project-pd-100
-  {
-    padding-bottom: 100px;
-  }
+.project {
+  text-align: center;
+}
+.project-pd-100 {
+  padding-bottom: 100px;
+}
 /* ------------------------------------ */
-
 
 /* ------------- Resume -------------- */
-  .resume
-  {
-    text-align: center;
-  }
-  /*   căn timeline sang trái   */
-  .css-ha3bif-MuiTimelineItem-root:before 
-  {
-    /* margin-left: -100%; */
-  }
-  /*   dấu chấm    */
-  /* .css-v6mo1y-MuiTimelineDot-root 
-  {
-    background-color: blue !important;
-  }
-    dấu gạch  
-  .css-1ami7lv-MuiTimelineConnector-root 
-  {
-    background-color: red !important;
-  } */
-  .timelineResume-br
-  {
-    white-space: pre-line;
-  }
-  .resume-pd-100
-  {
-    padding-bottom: 100px;
-  }
+.resume {
+  text-align: center;
+}
+.timelineResume-br {
+  white-space: pre-line;
+}
+.resume-pd-100 {
+  padding-bottom: 100px;
+}
 /* ------------------------------------ */
 
-
 /* --------------- footer -------------- */
-.footer-text
-{
+.footer-text {
   padding: 20px;
 }

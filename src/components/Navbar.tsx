@@ -1,53 +1,43 @@
-import { useTheme, Box, Typography } from '@mui/material'
-import React from 'react'
-import { Link } from 'react-router-dom'
-
+import { useTheme, Box } from "@mui/material";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const theme = useTheme();
 
-    const theme = useTheme();
-
-    return (
-        <Box 
-            className="navbar"
-            sx={{ bgcolor: `${theme.status.bgColorNav}`,
-                color: `${theme.status.txt} !important`
-        }}
-        >
-            <Box className="navbar-left">
-                hoang nam
-            </Box>
-            <Box className="navbar-right">
-                <Box>
-                    <Link 
-                        to="/" 
-                        className="navbar-element"
-                    >
-                            Home
-                    </Link>
-                </Box>
-                <Box>
-                    <Link 
-                        to="/about"
-                        className="navbar-element"
-                    >About me</Link>
-                </Box>
-                <Box>
-                    <Link 
-                        to="/project"
-                        className="navbar-element"
-                    >Project</Link>
-                </Box>
-                <Box sx={{paddingRight: '40px'}}>
-                    <Link 
-                        to="/resume"
-                        className="navbar-element"
-                    >Resume</Link>
-                </Box>
-            </Box>
+  return (
+    <Box
+      className="navbar"
+      sx={{
+        bgcolor: `${theme.status.bgColorNav}`,
+        color: `${theme.status.txt} !important`,
+      }}
+    >
+      <Box className="navbar-left">hoang nam</Box>
+      <Box className="navbar-right">
+        <Box>
+          <Link to="/" className="navbar-element">
+            Home
+          </Link>
         </Box>
-    
-    )
-}
+        <Box>
+          <Link to="/about" className="navbar-element">
+            About me
+          </Link>
+        </Box>
+        <Box>
+          <Link to="/project" className="navbar-element">
+            Project
+          </Link>
+        </Box>
+        <Box sx={{ paddingRight: "40px" }}>
+          <Link to="/resume" className="navbar-element">
+            Resume
+          </Link>
+        </Box>
+      </Box>
+    </Box>
+  );
+};
 
-export default Navbar
+export default Navbar;
