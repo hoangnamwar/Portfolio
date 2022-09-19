@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "yarn start",
-    "build": "yarn build",
+    "build": "react-scripts build",
     "test": "yarn test",
     "eject": "yarn eject",
     "predeploy": "yarn run build",
