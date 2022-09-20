@@ -154,10 +154,10 @@ function App() {
           </div>
           <Box className="switch">
             <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/project" component={Projects} />
-              <Route path="/resume" component={Resume} />
+              <Route path="/Portfolio" exact component={Home} />
+              <Route path="/Portfolio/about" component={About} />
+              <Route path="/Portfolio/project" component={Projects} />
+              <Route path="/Portfolio/resume" component={Resume} />
             </Switch>
           </Box>
           <Footer />

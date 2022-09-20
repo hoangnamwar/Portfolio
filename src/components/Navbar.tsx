@@ -16,22 +16,22 @@ const Navbar = () => {
       <Box className="navbar-left">hoang nam</Box>
       <Box className="navbar-right">
         <Box>
-          <Link to="/" className="navbar-element">
+          <Link to="/Portfolio" className="navbar-element">
             Home
           </Link>
         </Box>
         <Box>
-          <Link to="/about" className="navbar-element">
+          <Link to="/Portfolio/about" className="navbar-element">
             About me
           </Link>
         </Box>
-        <Box>
-          <Link to="/project" className="navbar-element">
+        {/* <Box>
+          <Link to="/Portfolio/project" className="navbar-element">
             Project
           </Link>
-        </Box>
+        </Box> */}
         <Box sx={{ paddingRight: "40px" }}>
-          <Link to="/resume" className="navbar-element">
+          <Link to="/Portfolio/resume" className="navbar-element">
             Resume
           </Link>
         </Box>

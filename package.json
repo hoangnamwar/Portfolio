@@ -1,5 +1,5 @@
 {
-  "homepage": "http://hoangnamwar.github.io/Portfolio/",
+  "homepage": "http://hoangnamwar.github.io/Portfolio",
   "name": "Hoàng Nam Portfolio",
   "version": "1.0.0",
   "private": true,
@@ -29,10 +29,10 @@
     "yarn": "^1.22.15"
   },
   "scripts": {
-    "start": "yarn start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "yarn test",
-    "eject": "yarn eject",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
